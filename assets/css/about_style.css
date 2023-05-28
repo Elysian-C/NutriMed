@@ -1,0 +1,32 @@
+body {
+  background-color: #FFFEEB;
+  font-family:'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  max-height: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #FFFEEB;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.logo {
+  float: left;
+}
+
+.perfil{
+  float: right;
+  
+}
