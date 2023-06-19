@@ -1,0 +1,68 @@
+body {
+    background-color: #FFFEEB;
+  }
+
+.main_container {
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.logo_container {
+    position: relative;
+    float: left;
+}
+
+.small_img {
+    width: 40px;
+    height: auto;
+}
+
+.profile_container {
+    position: relative;
+    float: right;
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+.text-container2 {
+    text-align: justify;
+    margin-top: 50px;
+  }
+  
+  .font-weight-bold {
+    font-weight: bold;
+  }
+
+  .text-muted {
+    color: gray;
+  }
+
+  .op-btn {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 12px 80px;
+  }
+
+  .dd-btn{
+    padding: 12px 80px;
+  }
+
+
+  .op-btn-light {
+    font-size: 15px;
+    padding: 12px 70px;
+  }
+
+  .no_background{
+    background-color:transparent !important;
+    border:green !important;
+  }
+
+  .custom-txt{
+    padding: 40px 80px;
+  }
