@@ -1,0 +1,273 @@
+*, :after, :before {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFEEB;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFF5;
+  padding: 10px 30px;
+}
+
+.header__nav_container {
+  display: flex;
+  width: calc(50%);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav__imagen {
+  width: 60px;
+  height: auto;
+}
+
+#nav__img-logo {
+  margin-right: 20px;
+}
+
+#nav__img-perfil {
+  border: 2px solid #299C34;
+  border-radius: 50%;
+  padding: 10%;
+}
+
+#principal__usuario-img {
+  border: 6px solid #299C34;
+  border-radius: 50%;
+  padding: 10px;
+  width: 60%;
+  height: auto;
+}
+
+.nav__logo p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.div__principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div__subprincipal {
+  width: calc(40%);
+  text-align: center;
+}
+
+.principal__usuario {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 40px 0px 0px 0px;
+}
+
+.principal__usuario h1 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#tipo__usuario {
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 4px;
+  color: #18AC2A;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.principal__opciones {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.opciones__list {
+  background: linear-gradient(90deg, #18CF2A 0%, #03A658 100%, #0DBF1F 100%);
+  box-shadow: -1px 4px 20px rgba(54, 97, 59, 0.4);
+  border-radius: 10px;
+  height: 75px;
+  text-align: left;
+  transition: all 0.25s;
+}
+
+.opciones__list span {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #FFFEEB;
+  top: 10px;
+  left: 20px;
+  font-weight: 500;
+}
+
+.opciones__list p {
+  position: relative;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 600;
+  color: #FFFEEB;
+  bottom: 30px;
+  right: 10px;
+}
+
+.opciones__list:hover {
+  height: 90px;
+}
+
+.noticias__container-principal {
+  position: relative;
+  text-align: center;
+}
+
+.noticias__container {
+  width: 100%;
+  text-align: center;
+}
+
+#noticia_principal {
+  object-fit: cover;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.noticias__rectangulo {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 6px;
+}
+
+.noticias__rectangulo-texto {
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.noticias__cascada {
+  display: flex;
+  margin-top: 30px;
+  text-align: left;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.noticias__item {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.noticias_imgn {
+  width: 250px;
+  height: auto;
+}
+
+.noticias__contenido {
+  padding-left: 10px;
+}
+
+.noticias__contenido h3{
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.noticias__contenido p{
+  color: #035F24;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.barra__verde {
+  background: linear-gradient(180deg, #18CF2A 0%, #03A658 100%, #0DBF1F 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  color: #FFFEEB;
+}
+
+.dias__semana {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dias__semana li {
+  display: flex;
+  margin-left: 35px;
+  margin-right: 35px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+.rectangulo {
+  background: linear-gradient(180deg, #18CF2A 0%, #03A658 100%, #0DBF1F 100%);
+  border-radius: 8px;
+  width: inherit;
+  height: inherit;
+}
+
+.rectangulo p {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFEEB;
+}
+
+.rectangulo img {
+  width: 80px;
+  text-align: center;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.rectangulo h4 {
+  position: relative;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFEEB;
+  bottom: 0;
+  right: 8px;
+}
