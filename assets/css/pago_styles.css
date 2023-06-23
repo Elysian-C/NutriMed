@@ -11,7 +11,7 @@ body {
 	color:#757575;
 	font-size: 15px;
 	text-align: left;
-	padding-bottom: 15px;
+	margin-bottom: 3px;
 }
 
 h2 {
@@ -26,7 +26,7 @@ h2 {
 
 .container {
     width: 400px;
-    height: 700px;
+    height: auto;
     margin: 0 auto;
     padding: 40px;
     box-sizing: border-box;
@@ -61,9 +61,10 @@ h2 {
 }
 
 .lista{
-	padding-top: 15px;
-	padding-bottom: 20px;
+	padding: auto;
+	margin: 14px 0px 9px 0px;
 }
+
 
 li{
 	position: relative;
@@ -102,19 +103,45 @@ input[type="text"] {
   width: 100%;
   padding: 10px;
   background-color: #FFFEEB;
-  margin-bottom: 20px;
+  margin-bottom: 13px;
   box-sizing: border-box;
   border: 1px solid #18CF2A;
   border-radius: 4px;
   font-size: 16px;
 }
 
+.small{
+	display: inline-block;
+	width: 49%;
+  padding: 10px;
+  background-color: #FFFEEB;
+  margin-bottom: 13px;
+  box-sizing: border-box;
+  border: 1px solid #18CF2A;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
 ::placeholder{
   color: #b7b7b7;
 }
 
+.pay{
+	margin-top: 90%;
+	font-weight: 500;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 30%;
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #18CF2A -6.48%, #03A658 112.2%) ;
+	border-radius: 13px;
+	text-decoration: none;
+	margin-left: 35%;
+}
+
 .endpage{
-	padding-top: 25px;
+	padding-top: 5px;
 	font-size: 13px;
 	text-align: left;
 	color:#757575;
