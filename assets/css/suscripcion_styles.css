@@ -21,7 +21,7 @@ h2 {
 	  top:-10px;
 	}
 
-.container {
+.container1 {
     width: 400px;
     height: 700px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ li{
 	left: -10px;
 }
 
-.title{
+.title1{
 	position: relative;
 	top:15px;
 	left: 15px;
@@ -88,12 +88,39 @@ li{
 	background-color: #FFFEEB;
 	border-radius: 13px;
 }
+
+.form-switch {
+    padding-left: 4rem !important;
+    padding-top: 0.15rem;
+}
+
 #scnd{
-	top:21px;
+	top:0px;
 }
 
 img{
 	position: relative;
 	top: 5px;
 	left: 13px;
+}
+
+.form-check-input:checked {
+    background-color: #18CF2A !important;
+    border-color: #18CF2A !important;
+}
+
+.next{
+	position: relative;
+    bottom: -490px;
+    right: -120px;
+    font-weight: 500;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #18CF2A -6.48%, #03A658 112.2%);
+    border-radius: 13px;
+    text-decoration: none;
+    margin-left: 35%;
 }

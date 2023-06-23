@@ -1,103 +1,57 @@
 body {
-    background-color: #FFFEEB;
-    font-family:'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #FFFEEB !important;
     font-family: 'Inter', sans-serif;
-  }
-  
-  .container {
-    width: 400px;
-    height: 700px;
-    margin: 0 auto;
-    padding: 40px;
-    box-sizing: border-box;
-    background-color: #FFFEEB;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    position: relative;
-  }
-  
-  .imagen {
-    position: absolute;
-    top: 0;
-    left: 0;
+}
+
+.imagen {
     width: 400px; 
     height: 370px;
     background-image: url('../img/frutas_vertical.png');
     background-size: cover;
     background-position: center;
-  }
+}
   
 .titulo{
-    position: absolute;
-    top: 56%;
-    left: 35%;
-    transform: translate(-45%, -35%);
     font-weight: 700;
     font-size: 30px;
 }
 
 .texto{
-    text-align: justify;
-    position: absolute;
-    top: 70%;
     font-size: 15px;
-    left: 58%;
-    transform: translate(-60%, -47%);
     color: #757575;
-    font-weight: 500;
     width:82.5%;
     line-height: 1.6;
 }
 
-.nav__links {
-    position: absolute;
-    width: 0;
-    height: 2px;
-    top: 76%;
-    left: 0;
-    transition: width 0.3s ease;
-    list-style-type: none;
-  }
-
-  .nav__links-descarga {
-    display: flex;
+.btn{
     font-weight: 500;
     height: 30px;
     width: 260px;
-    align-items: center;
-    justify-content: center;
     background-color: #18CF2A;
     text-decoration: none;
     color: white;
-    padding: 8px 15px;
     border-radius: 10px;
-    margin-left: 15px;
     transition: background-color 0.3s ease;
-    font-weight: 600;
-  }
-
-  .texto_cuenta{
-    text-align: justify;
-    position: absolute;
-    top: 88%;
-    font-size: small;
-    left: 55%;
-    transform: translate(-85%, -40%); 
-    font-weight: 500;
 }
 
+.texto_cuenta{
+    display: inline-block;
+    margin-bottom: 0;
+    padding-right: 5px;
+}
 
 .texto_login{
-    text-align: justify;
-    position: absolute;
-    top: 88.7%;
-    font-size: small;
-    left: 69%;
-    font-weight: bold;
     color: #18CF2A;
-    transform: translate(-85%, -70%);
-    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
 }
+
+a.texto_login:link, a.texto_login:hover, a.texto_login:active, a.texto_login:visited {
+    text-decoration: none;
+    color: #18CF2A;
+}
+
+a.nav__links-descarga:hover{
+    background: #03A658
+}
+
