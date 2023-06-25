@@ -11,6 +11,7 @@
 <body>
 
   <div class="container">
+    <div id="datos-container"></div>
     <div class="row">
       <div class="col text-center">
         <img src="assets/img/logo.png" alt="Logo Izquierdo" class="logo-left position-absolute">
@@ -20,9 +21,11 @@
       </div>
     </div>
 
+    <div id="info-cita"></div>
+
     <div class="row">
       <div class="col-md-4 mb-3">
-        <a href="#" class="card btn btn-custom">
+        <a href="#" class="card btn btn-custom" data-nombre="Dra.C.Gonzáles" data-estado="Programada" data-fecha="16/04">
          <div class="card-body d-flex align-items-center">
             <div>
               <h3 class="card-title text-left"><strong>Dra.C.Gonzáles</strong></h3>
@@ -33,7 +36,7 @@
       </div>
 
       <div class="col-md-4 mb-3">
-        <a href="#" class="card btn btn-custom">
+        <a href="#" class="card btn btn-custom" data-nombre="Dr.L.Castro" data-estado="Finalizada" data-fecha="10/03">
           <div class="card-body d-flex align-items-center">
             <div>
               <h3 class="card-title text-left"><strong>Dr.L.Castro</strong></h3>
@@ -44,7 +47,7 @@
       </div>
 
       <div class="col-md-4 mb-3">
-        <a href="#" class="card btn btn-custom">
+        <a href="#" class="card btn btn-custom" data-nombre="Dr.P.Castillo" data-estado="Finalizada" data-fecha="20/02">
           <div class="card-body d-flex align-items-center">
             <div>
               <h3 class="card-title text-left"><strong>Dr.P.Castillo</strong></h3>
@@ -57,18 +60,18 @@
 
     <div class="row">
       <div class="col-md-4 mb-3">
-        <a href="#" class="card btn btn-custom">
+        <a href="#" class="card btn btn-custom" data-nombre="Dra.M.Del Aguila" data-estado="Cancelada" data-fecha="18/02">
          <div class="card-body d-flex align-items-center">
             <div>
               <h3 class="card-title text-left"><strong>Dra.M.Del Aguila</strong></h3>
-              <p class="card-date text-left">Cancelada - 18/02</p>
+              <p class="card-date text-left cita-cancelada">Cancelada - 18/02</p>
             </div>
           </div>
         </a>
       </div>
 
       <div class="col-md-4 mb-3">
-        <a href="#" class="card btn btn-custom">
+        <a href="#" class="card btn btn-custom" data-nombre="Dr.C.GonzálesRosas" data-estado="Programada" data-fecha="12/09">
           <div class="card-body d-flex align-items-center">
             <div>
               <h3 class="card-title text-left"><strong>Dr.C.GonzálesRosas</strong></h3>
@@ -79,7 +82,7 @@
       </div>
 
       <div class="col-md-4 mb-3">
-        <a href="#" class="card btn btn-custom">
+        <a href="#" class="card btn btn-custom" data-nombre="Dr.K.Rodriguez" data-estado="Programada" data-fecha="21/10">
           <div class="card-body d-flex align-items-center">
             <div>
               <h3 class="card-title text-left"><strong>Dra.K.Rodriguez</strong></h3>
@@ -93,5 +96,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="Hist_Cosul.js"></script>
 </body>
 </html>
