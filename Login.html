@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log in - NutriMed</title>
+  <link rel="stylesheet" href="assets/css/Estilos_Login.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="container">
+    <h1>Log In</h1>
+    <p class="TextoLogin"><b>¡Bienvenido de vuelta!</b> Te hemos extrañado</p>
+    <div class="ImagenLogIn">
+      <img src="assets/img/LogInImg.png" alt="PaltaLogIn" width="180" height="90">
+    </div>
+    <form id="login-form" action="https://elysian-c.github.io/NutriMed/menu">
+      <input type="text" id="email" placeholder="Correo electrónico" required>
+      <input type="password" id="password" placeholder="Contraseña" required>
+      <div id="error-message" class="error-message"></div>
+      <input type="submit" value="Log In">
+    </form>
+    <div class="links">
+      <a href="#">¿Olvidaste tu contraseña?</a>
+    </div>
+    <div class="login-container">
+      <div class="login-buttons">
+        <a class="facebook-button" href="https://www.facebook.com">
+          <span><img src="assets/img/LogFace.png" alt="Logo de Facebook" width="25" height="25"></span>
+          Facebook
+        </a>
+        <a class="google-button" href="https://accounts.google.com">
+          <span><img src="assets/img/LogoGoogle.png" alt="Logo de Google" width="20" height="20"></span>
+          Google
+        </a>
+      </div>
+    </div>
+    <p>¿No tienes una cuenta? <a href="https://elysian-c.github.io/NutriMed/registro">Regístrate</a></p>
+    <a class="info-button" href="https://elysian-c.github.io/NutriMed/about">
+      <img src="assets/img/LogoInformacion.png" alt="Logo de Informacion" width="20" height="20">
+    </a>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
