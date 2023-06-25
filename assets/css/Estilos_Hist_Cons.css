@@ -1,82 +1,91 @@
 .btn-custom {
-    background-image: linear-gradient(to right, #18CF2A, #18A22C);
-    color: white;
-  }
-  
-  body {
-    background-color: #FFFEEB;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  .objetivos-heading {
-    margin-top: 30px;
-  }
-  
-  .objetivos-content {
-    margin-top: 20px;
-  }
-  
-  .logo-left {
-    top: 10px;
-    left: 10px;
-    margin-right: 10px;
-    max-width: 50px;
-  }
-  
-  .logo-right {
-    top: 10px;
-    right: 10px;
-    margin-left: 10px;
-    max-width: 50px;
-  }
-  
-  .card-title {
-    text-align: left;
-  }
-  
-  .card-body > div {
-    flex-grow: 1;
-  }
-  
-  .gustos-input {
-    border: 1px solid #18CF2A;
-    background-color: #FFFEEB;
-    height: 100px;
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  
-  .gustos-input:focus {
-    background-color: #FFFEEB;
-  }
-  
-  .no-outline:focus {
-    outline: none;
-  }
-  
-  .listo-button {
-    margin-top: 10px;
-    background-color: #18CF2A;
-    color: white;
-    border: none;
-    padding: 16px 32px 16px 32px;
-  }
-  
-  .container {
-    margin-bottom: 30px;
-  }
-  .card-date {
-    font-size: 12px;
-    margin-top: 5px;
-    color: white; 
-  }
-  
-  .card-body {
-    justify-content: space-between;
-    padding: 20px; 
-  }
+  background-image: linear-gradient(to right, #18CF2A, #18A22C);
+  color: white;
+}
+
+.cita-cancelada {
+  color: rgb(233, 15, 15);
+}
+
+body {
+  background-color: #FFFEEB;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.objetivos-heading {
+  margin-top: 30px;
+}
+
+.objetivos-content {
+  margin-top: 20px;
+}
+
+.logo-left {
+  top: 10px;
+  left: 10px;
+  margin-right: 10px;
+  max-width: 50px;
+}
+
+.logo-right {
+  top: 10px;
+  right: 10px;
+  margin-left: 10px;
+  max-width: 50px;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.card-body > div {
+  flex-grow: 1;
+}
+
+.gustos-input {
+  border: 1px solid #18CF2A;
+  background-color: #FFFEEB;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.gustos-input:focus {
+  background-color: #FFFEEB;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.listo-button {
+  margin-top: 10px;
+  background-color: #18CF2A;
+  color: white;
+  border: none;
+  padding: 16px 32px 16px 32px;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+.card-date {
+  font-size: 16px;
+  margin-top: 5px;
+  color: white;
+}
+
+.card-body {
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.cita-cancelada {
+  color: rgb(233, 15, 15);
+}
