@@ -31,7 +31,10 @@
 					<div class="principal__usuario">	
 						<div class="principal__usuario-presentation">
 							<img id="principal__usuario-img" src="assets/img/perfil.png">
-							<h1>Dereck Sosa</h1>
+							<input type="file" id="perfil-input" style="display: none;">
+          					<button id="perfil-button" class="circular-button" title="Cambiar foto de perfil">+</button>
+							<h1 id="nombre-usuario">Dereck Sosa</h1>
+  							<button class="circular-button" onclick="activarEdicionNombre()">&#9998;</button>
 						</div>
 					</div>
 					<div id="tipo__usuario">CLIENTE</div>
@@ -44,5 +47,6 @@
 				</div>
 			</div>
 		</div>
+		<script src="assets/js/script.js"></script>
 	</body>
 </html>
