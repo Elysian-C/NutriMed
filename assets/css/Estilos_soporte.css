@@ -1,0 +1,99 @@
+.btn-custom {
+  background-image: linear-gradient(to right, #18CF2A, #18A22C);
+  color: white;
+}
+
+body {
+  background-color: #FFFEEB;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.objetivos-heading {
+  margin-top: 30px;
+}
+
+.objetivos-content {
+  margin-top: 20px;
+}
+
+.logo-left {
+  top: 10px;
+  left: 10px;
+  margin-right: 10px;
+  max-width: 50px;
+}
+
+.logo-right {
+  top: 10px;
+  right: 10px;
+  margin-left: 10px;
+  max-width: 50px;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.card-body > div {
+  flex-grow: 1;
+}
+
+.input-group {
+  margin-top: 20px;
+}
+
+.input-group-text {
+  background-color: #18CF2A;
+  color: white;
+}
+
+.form-control {
+  border-color: #18CF2A;
+  background-color: #FFFEEB;
+}
+.form-control:focus {
+  border-color: #18CF2A;
+  background-color: #FFFEEB;
+}
+
+.ayuda-rapida {
+  margin-top: 30px;
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+.card-body {
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.input-group-text:before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f002';
+  font-weight: 900;
+  display: inline-block;
+  padding-right: 5px;
+}
+.card.btn-custom.btn-small:hover {
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.solucion-text {
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
