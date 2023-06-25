@@ -1,0 +1,174 @@
+body {
+  background-color: #FFFEEB;
+  font-family:'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #FFFEEB;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.ImagenLogIn {
+  margin-bottom: 20px;
+  padding: 15px 0;
+}
+
+::placeholder{
+  color: #b7b7b7;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #FFFEEB;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #18CF2A;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #18CF2A;
+  width: 270px;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.login-container {
+  text-align: center; 
+  margin-top: 20px;
+}
+
+.login-buttons {
+  display: inline-block;
+  text-align: right; 
+}
+
+.login-buttons a {
+  display: inline-block;
+  position: relative;
+  width: 110px; 
+  padding: 10px;
+  margin-right: 10px; 
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.login-buttons span {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login-buttons a.facebook-button {
+  background-color: #FFFEEB;
+}
+
+.login-buttons a.google-button {
+  background-color: #FFFEEB;
+}
+
+.login-buttons a:hover {
+  opacity: 0.8;
+}
+
+.TextoLogin {
+  font-size: 15px;
+}
+
+p {
+  color: #757575;
+}
+
+a{
+  color: #18CF2A;
+}
+.links {
+  margin-top: 1px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.links a {
+  color: #18CF2A;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.info-button {
+  display: block;
+  width: 25px;
+  margin: 50px auto;
+  padding: 5px;
+  background-color: #FFFEEB;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.info-button:hover {
+  opacity: 0.8;
+}
+
+
+.login-buttons a.facebook-button:hover,
+.login-buttons a.google-button:hover:hover {
+  transform: scale(1.1);
+}
+
+input[type="submit"]:hover{
+  transform: scale(1.1);
+  background-color: #18CF2A;
+}
+
+input[type="text"],
+input[type="password"] {
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.error-message {
+  padding: 10px;
+  color: #D8000C;
+  border: 1px solid #D8000C;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: none; 
+}
+
+.error-message.active {
+  display: block; 
+  background-color: #FFD5D5; 
+}
