@@ -26,7 +26,7 @@ a {
 
 .header__nav_container {
   display: flex;
-  width: calc(45%);
+  width: calc(35%);
   align-items: center;
   justify-content: space-between;
 }
@@ -54,16 +54,6 @@ a {
   object-fit: cover;
 }
 
-#principal__usuario-img {
-  border: 6px solid #299C34;
-  border-radius: 50%;
-  padding: 10px;
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-}
-
-
 .nav__logo p {
   font-size: 30px;
   font-weight: 600;
@@ -76,36 +66,8 @@ a {
 }
 
 .div__subprincipal {
-  width: calc(30%);
+  width: calc(35%);
   text-align: center;
-}
-
-.principal__usuario {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  margin: 40px 0px 0px 0px;
-}
-
-.principal__usuario h1 {
-  font-size: 45px;
-  font-weight: 600;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  text-align: center;
-}
-
-#tipo__usuario {
-  display: flex;
-  font-size: 25px;
-  justify-content: center;
-  text-align: center;
-  font-weight: 500;
-  letter-spacing: 4px;
-  color: #18AC2A;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .principal__opciones {
@@ -147,95 +109,6 @@ a {
   height: 90px;
 }
 
-.noticias__container-principal {
-  position: relative;
-  text-align: center;
-}
-
-.noticias__container {
-  width: 100%;
-  text-align: center;
-}
-
-#noticia_principal {
-  object-fit: cover;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.noticias__rectangulo {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 6px;
-}
-
-.noticias__rectangulo-texto {
-  font-size: 15px;
-  color: #FFFFFF;
-  text-align: center;
-}
-
-.noticias__cascada {
-  display: flex;
-  margin-top: 30px;
-  text-align: left;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-.noticias__item {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 30px;
-}
-
-.noticias_imgn {
-  width: 250px;
-  height: auto;
-}
-
-.noticias__contenido {
-  padding-left: 10px;
-}
-
-.noticias__contenido h3{
-  margin: 0;
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.noticias__contenido p{
-  color: #035F24;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.barra__verde {
-  background: linear-gradient(180deg, #18CF2A 0%, #03A658 100%, #0DBF1F 100%);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 10px;
-  color: #FFFEEB;
-}
-
-.dias__semana {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.dias__semana li {
-  display: flex;
-  margin-left: 35px;
-  margin-right: 35px;
-  font-size: 20px;
-  font-weight: 500;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -250,6 +123,23 @@ a {
   width: inherit;
   height: inherit;
   cursor: pointer;
+}
+
+.dias-semana {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-row: 50px;
+  grid-gap: 10px;  
+}
+
+.dias__semana {
+  display: flex;
+  background: linear-gradient(180deg, #18CF2A 0%, #03A658 100%, #0DBF1F 100%);
+  align-items: center;
+  color: whitesmoke;
+  border-radius: 8px;
+  width: inherit;
+  justify-content: center;
 }
 
 .rectangulo:active {
@@ -311,4 +201,56 @@ a {
   border: none;
   margin-bottom: 20px;
   margin-top: -20px;
+}
+
+/* Estilos del botón de cerrado */
+.boton-cerrar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #18AC2A;
+  margin: 10px;
+  margin-top: 20px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.boton-cerrar:hover {
+  background-color: #035F24;
+}
+
+.ventana-emergente {
+  position: fixed;
+  border-radius: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 0px;
+  background-color: #FFFEEB;
+  box-shadow: -1px 4px 20px rgba(54, 97, 59, 0.4);
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 9999;
+}
+
+.contenido-ventana {
+  text-align: center;
+}
+
+.ventana-emergente img {
+  width: 200px;
+  height: auto;
+}
+
+.ventana-emergente h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.ventana-emergente p {
+  margin-bottom: 0;
 }

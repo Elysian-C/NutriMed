@@ -22,28 +22,36 @@
               </div>
               <div class="text-align left mt-3">
                 <div class="btn-group">
-                    <button class="btn btn-secondary btn-success btn-lg dropdown-toggle dd-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button id="dropdown_t" class="btn btn-secondary btn-success btn-lg dropdown-toggle dd-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Tipo de consulta
                     </button>
                     <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#" onclick="update_t(this)">Rutinaria</a></li>
+                      <li><a class="dropdown-item" href="#" onclick="update_t(this)">Especializada</a></li>
                     </ul>
                   </div>
               </div>
               <div class="text-align left mt-3">
                 <div class="btn-group">
-                    <button class="btn btn-secondary btn-success btn-lg dropdown-toggle dd-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button id="dropdown_d" class="btn btn-secondary btn-success btn-lg dropdown-toggle dd-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Día de consulta
                     </button>
                     <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#" onclick="update_d(this)">Hoy</a></li>
+                      <li><a class="dropdown-item" href="#" onclick="update_d(this)">Mañana</a></li>
                     </ul>
                   </div>
               </div>
               <div class="text-align left mt-3">
                 <div class="btn-group">
-                    <button class="btn btn-secondary btn-success btn-lg dropdown-toggle dd-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button id="dropdown_h" class="btn btn-secondary btn-success btn-lg dropdown-toggle dd-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Horarios
                     </button>
                     <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#" onclick="update_h(this)">11:00</a></li>
+                      <li><a class="dropdown-item" href="#" onclick="update_h(this)">13:00</a></li>
+                      <li><a class="dropdown-item" href="#" onclick="update_h(this)">17:00</a></li>
+                      <li><a class="dropdown-item" href="#" onclick="update_h(this)">19:00</a></li>
                     </ul>
                   </div>
               </div>
@@ -58,11 +66,12 @@
               </div>
               <div class="text-center mt-3">
                 <a href="https://elysian-c.github.io/NutriMed/menu">
-                <button type="button" class="btn btn-primary btn-success op-btn-light">Nueva consulta</button>
+                <button type="button" class="btn btn-primary btn-success op-btn-light" onclick="alertaNueva()">Nueva consulta</button>
               </a>
               </div>
         </div>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="assets/js/consultas.js"></script>
   </body>
 </html>
