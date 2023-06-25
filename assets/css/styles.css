@@ -26,7 +26,7 @@ a {
 
 .header__nav_container {
   display: flex;
-  width: calc(50%);
+  width: calc(45%);
   align-items: center;
   justify-content: space-between;
 }
@@ -49,15 +49,20 @@ a {
   border: 2px solid #299C34;
   border-radius: 50%;
   padding: 10%;
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
 }
 
 #principal__usuario-img {
   border: 6px solid #299C34;
   border-radius: 50%;
   padding: 10px;
-  width: 60%;
-  height: auto;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
 }
+
 
 .nav__logo p {
   font-size: 30px;
@@ -71,7 +76,7 @@ a {
 }
 
 .div__subprincipal {
-  width: calc(40%);
+  width: calc(30%);
   text-align: center;
 }
 
@@ -244,6 +249,12 @@ a {
   border-radius: 8px;
   width: inherit;
   height: inherit;
+  cursor: pointer;
+}
+
+.rectangulo:active {
+  background: linear-gradient(180deg, #0DBF1F 0%, #03A658 100%, #18CF2A 100%);
+  cursor: pointer;
 }
 
 .rectangulo p {
@@ -270,4 +281,34 @@ a {
   color: #FFFEEB;
   bottom: 0;
   right: 8px;
+}
+
+.circular-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #18AC2A;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.circular-button:active {
+  background-color: #035F24;
+}
+
+#noticias-button {
+  background: #18AC2A;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 10px;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: -20px;
 }
